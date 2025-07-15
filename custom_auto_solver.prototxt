@@ -1,0 +1,17 @@
+train_net: "mnist/custom_auto_train.prototxt"
+test_net: "mnist/custom_auto_test.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 0.009999999776482582
+display: 1000
+max_iter: 10000
+lr_policy: "inv"
+gamma: 9.999999747378752e-05
+power: 0.75
+momentum: 0.8999999761581421
+weight_decay: 0.0005000000237487257
+snapshot: 5000
+snapshot_prefix: "mnist/custom_net"
+solver_mode: GPU
+random_seed: 831486
+type: "SGD"
