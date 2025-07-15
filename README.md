@@ -34,3 +34,4 @@ The **python_confmat.py** script is a custom Python layer for computing the **co
 
 The **.prototxt** files define the network architecture and training/test parameters for LeNet.
 
+**Author：SlayerXT**
